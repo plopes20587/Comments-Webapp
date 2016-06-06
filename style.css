@@ -1,0 +1,60 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  border-left: 3px solid #3498db;
+  padding-left: 20px;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+main {
+  margin-top: 80px;
+}
+
+form input{
+  background: #f0f0f0;
+  border: none;
+  border-left: 2px solide #fff;
+  font-size: 36px;
+  padding: 20px;
+  width: 100%;
+  transition: background 1.5s, border-left 1.5s;
+
+}
+
+form input:focus {
+  background: #fff;
+  border-left: 3px solid #666;
+  box-shadow: none;
+  outline: none;
+}
+
+button.btn {
+  background: transparent;
+  border: none;
+  color: #3498db;
+  cursor: pointer;
+  font-size: 36px;
+  padding: 20px 24px;
+  transition: background 1.5s, color 1.5s;
+}
+
+button.btn:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.comments {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  padding-left: 20px;
+  border-left: 3px solid #666;
+  font-size: 28px;
+  margin: 0 0 36px;
+}
